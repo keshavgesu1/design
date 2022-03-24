@@ -15,6 +15,8 @@
 		6B5FC00C27DA24E200FF2717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5FC00A27DA24E200FF2717 /* LaunchScreen.storyboard */; };
 		6B5FC01727DA24E200FF2717 /* designTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5FC01627DA24E200FF2717 /* designTests.swift */; };
 		6B5FC02227DA24E200FF2717 /* designUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5FC02127DA24E200FF2717 /* designUITests.swift */; };
+		6B85AEEE27DB155F00D99A1D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B85AEED27DB155F00D99A1D /* TableViewCell.swift */; };
+		6B85AEF427DB719100D99A1D /* Specifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B85AEF327DB719100D99A1D /* Specifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,18 @@
 		6B5FC01D27DA24E200FF2717 /* designUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = designUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5FC02127DA24E200FF2717 /* designUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designUITests.swift; sourceTree = "<group>"; };
 		6B5FC02327DA24E200FF2717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5FC03027DA250800FF2717 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		6B5FC03127DA250800FF2717 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		6B5FC03227DA250800FF2717 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		6B5FC03327DA250800FF2717 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6B5FC03427DA250900FF2717 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		6B5FC03527DA250900FF2717 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		6B5FC03627DA250900FF2717 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6B5FC03727DA250900FF2717 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		6B5FC03827DA250900FF2717 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6B5FC03927DA250900FF2717 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		6B85AEED27DB155F00D99A1D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6B85AEF327DB719100D99A1D /* Specifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +115,12 @@
 			children = (
 				6B5FBFFF27DA24E100FF2717 /* AppDelegate.swift */,
 				6B5FC00127DA24E100FF2717 /* SceneDelegate.swift */,
+				6B85AEF327DB719100D99A1D /* Specifier.swift */,
 				6B5FC00327DA24E100FF2717 /* ViewController.swift */,
+				6B85AEED27DB155F00D99A1D /* TableViewCell.swift */,
 				6B5FC00527DA24E100FF2717 /* Main.storyboard */,
 				6B5FC00827DA24E200FF2717 /* Assets.xcassets */,
+				6B5FC02F27DA24F600FF2717 /* Fonts */,
 				6B5FC00A27DA24E200FF2717 /* LaunchScreen.storyboard */,
 				6B5FC00D27DA24E200FF2717 /* Info.plist */,
 			);
@@ -126,6 +143,23 @@
 				6B5FC02327DA24E200FF2717 /* Info.plist */,
 			);
 			path = designUITests;
+			sourceTree = "<group>";
+		};
+		6B5FC02F27DA24F600FF2717 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6B5FC03127DA250800FF2717 /* Lato-Black.ttf */,
+				6B5FC03627DA250900FF2717 /* Lato-BlackItalic.ttf */,
+				6B5FC03427DA250900FF2717 /* Lato-Bold.ttf */,
+				6B5FC03827DA250900FF2717 /* Lato-BoldItalic.ttf */,
+				6B5FC03027DA250800FF2717 /* Lato-Italic.ttf */,
+				6B5FC03727DA250900FF2717 /* Lato-Light.ttf */,
+				6B5FC03927DA250900FF2717 /* Lato-LightItalic.ttf */,
+				6B5FC03227DA250800FF2717 /* Lato-Regular.ttf */,
+				6B5FC03527DA250900FF2717 /* Lato-Thin.ttf */,
+				6B5FC03327DA250800FF2717 /* Lato-ThinItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B5FC00427DA24E100FF2717 /* ViewController.swift in Sources */,
+				6B85AEEE27DB155F00D99A1D /* TableViewCell.swift in Sources */,
 				6B5FC00027DA24E100FF2717 /* AppDelegate.swift in Sources */,
+				6B85AEF427DB719100D99A1D /* Specifier.swift in Sources */,
 				6B5FC00227DA24E100FF2717 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,7 +472,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ7PMWZCR4;
 				INFOPLIST_FILE = design/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = keshav.design;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +493,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ7PMWZCR4;
 				INFOPLIST_FILE = design/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = keshav.design;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
